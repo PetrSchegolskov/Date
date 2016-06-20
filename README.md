@@ -21,7 +21,5 @@ echo $formatter->format(new DateTime('05-03-2013')); // 5 марта
 
 Ссылки:
 http://php.net/strftime
-
 https://php.ru/forum/threads/data-na-russkom-jazyke.37809/
-
 https://toster.ru/q/32933
