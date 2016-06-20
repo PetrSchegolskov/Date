@@ -10,7 +10,7 @@ strftime('%e %b. %A. Начало в %H:%M', strtotime( $date ))
 ```
 
 
-Можно стандартным модулем intl
+Можно стандартным php модулем intl
 
 ```
 $formatter = new IntlDateFormatter('ru_RU', IntlDateFormatter::FULL, IntlDateFormatter::FULL);
