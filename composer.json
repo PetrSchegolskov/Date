@@ -1,5 +1,5 @@
 {
-  "name": "PetrSchegolskov/RuDate",
+  "name": "petrschegolskov/rudate",
   "description": "Class formatting dates in Russian",
   "require": {
     "php": ">=5.3.0"
