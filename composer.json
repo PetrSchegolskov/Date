@@ -6,7 +6,6 @@
   },
   "autoload": {
     "classmap": [
-            "RuDate/",
             "RuDate.php"
         ]
   }
