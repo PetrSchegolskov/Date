@@ -8,6 +8,21 @@ RuDate::create('20-06-2016 10:22:33')->format(); // Вчера в 10:22
 RuDate::create('19-06-2016 10:22:33')->format(); // 19 июня в 10:22
 ```
 
+Установка через composer, composer.json:
+
+```
+{
+    "require": {
+        "petrschegolskov/rudate":"dev-master"
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/PetrSchegolskov/RuDate"
+        }
+    ]
+}
+```
 Альтернативные методы:
 
 Для вывода даты на русском языке можно использовать стандартную функцию strftime, установив локаль: 
